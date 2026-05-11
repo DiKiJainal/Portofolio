@@ -247,10 +247,11 @@
     <title>Personal - Portfolio Website</title>
 </head>
 <body>
-   <nav>
+   <body>
+    <nav>
         <div class="nav-container">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                DiKi <span>Jainal</span>
+                Tamzidan <span>Mahdiyin</span>
             </div>
             <div class="links">
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
@@ -266,13 +267,30 @@
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="skill.html">Skills</a>
-                <a href="personal.html">Personale</a>
+                <a href="personal.html">Personal</a>
                 <a href="contact.html">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
     </nav>
-    <h1> DIKI JAINAL</h1>
+
+            <div class="services-header" data-aos="fade-down" data-aos-duration="1500">
+                <DIKI JAINAL</h1>
+            </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset: 0});
+        
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        
+        function cancel() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
 </body>
 </html>
-
