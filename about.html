@@ -645,7 +645,7 @@
                 const experiences = [
                     {
                         title: "Siswa Rekayasa Perangkat Lunak",
-                        company: "SMK Yappri Sumedanh",
+                        company: "SMK Yappri Sumedang",
                         period: "2024 - Sekarang",
                         description: "Fokus pada pengembangan web, mobile, dan logika pemrograman."
                     },
@@ -690,18 +690,17 @@
             function generateClientCards() {
                 const clients = [
                     {
-                        name: "Ell Udin",
-                        company: "Innovation Corp",
-                        image: "img/Jainal-Photo.jpg",
-                        testimonial: "Outstanding work on our company website redesign!"
+                        name: "Sekretaris OSIS",
+                        organization: "Organisasi Siswa Intra Sekolah",
+                        image: "img/Jainal-Photo.jpg", // Ganti dengan foto yang sesuai jika ada
+                        testimonial: "Desain poster yang dibuat sangat keren dan informatif. Sangat membantu dalam publikasi kegiatan sekolah."
                     },
                     {
-                        name: "Ell Ucup",
-                        company: "Tech Startup",
+                        name: "Sekbid TIK",
+                        organization: "Divisi Multimedia",
                         image: "img/Jainal-Photo.jpg",
-                        testimonial: "Delivered our app ahead of schedule with excellent quality"
+                        testimonial: "Hasil desainnya selalu konsisten dan sesuai dengan tema acara. Sangat puas dengan kinerjanya di bidang desain."
                     }
-                    // Add more clients as needed
                 ];
 
                 return clients.map(client => `
@@ -722,18 +721,21 @@
             function generateAwardCards() {
                 const awards = [
                     {
-                        title: "Best Web Design",
-                        organization: "Design Awards 2023",
-                        description: "Recognition for exceptional web design and user experience"
+                        title: "Juara 1 Lomba Game (E-Sports)",
+                        organization: "Turnamen Free Fire Antar Kelas",
+                        description: "Meraih peringkat pertama dalam kompetisi e-sports sekolah, menunjukkan koordinasi tim dan strategi yang baik."
                     },
                     {
-                        title: "Innovation Award",
-                        organization: "Tech Summit 2022",
-                        description: "Awarded for innovative use of emerging technologies"
-                    }
-                    // Add more awards as needed
+                        title: "Peringkat 3 Akademik",
+                        organization: "Prestasi Juara Kelas",
+                        description: "Penghargaan atas dedikasi dalam bidang akademik dengan meraih posisi tiga besar di kelas."
+                    },
+                    {
+                        title: "Juara 3 Seni Kaligrafi",
+                        organization: "Kompetisi Seni SD",
+                        description: "Penghargaan di bidang seni visual dan ketelitian dalam pembuatan kaligrafi."
+                    },
                 ];
-
                 return awards.map(award => `
                 <div class="content-card" data-aos="fade-up">
                     <div class="card-info">
